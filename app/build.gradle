@@ -15,6 +15,16 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    flavorDimensions += "default"
+    productFlavors {
+        psel {
+            applicationId = "fr.fdj.enligne"
+        }
+        zebet {
+            applicationId = "fr.zebet.zebet"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false

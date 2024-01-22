@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Test action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, "Test action zeBet/FDJ", Snackbar.LENGTH_LONG)
+                        .setAction("Ok", null).show();
             }
         });
     }
