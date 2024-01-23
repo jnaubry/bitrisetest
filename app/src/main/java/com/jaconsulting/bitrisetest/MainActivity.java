@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Test action zeBet/FDJ", Snackbar.LENGTH_LONG)
-                        .setAction("Ok", null).show();
+                        .setAction("Ok test", null).show();
             }
         });
     }
